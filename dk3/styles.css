@@ -1,0 +1,100 @@
+/* Reset dasar untuk menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk body */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header utama */
+h1 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #000000;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Styling untuk div dengan class "city" */
+.city {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Gambar styling */
+img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
